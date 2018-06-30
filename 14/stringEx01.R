@@ -8,6 +8,7 @@ library(tidyverse)
 #참  조:http://r4ds.had.co.nz/strings.html
 
 
+#바뀐내용
 
 #문자열 길이
 str_length(c('a' ,'R for data science' , NA))

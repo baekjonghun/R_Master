@@ -1,0 +1,5 @@
+setwd('E:\\workspace\\R\\project_RLevel1\\Level2\\file')
+getwd()
+
+dir()
+list.files()

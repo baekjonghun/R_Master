@@ -1,4 +1,4 @@
-install.packages('tidyverse')
+﻿install.packages('tidyverse')
 
 library(tidyverse)
 
@@ -6,7 +6,6 @@ library(tidyverse)
 #작성자:백종훈 
 #작성일:2018-06-30
 #참  조:http://r4ds.had.co.nz/strings.html
-
 
 #바뀐내용
 

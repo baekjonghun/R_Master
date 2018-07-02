@@ -1,0 +1,62 @@
+#########결측치 정제 ###################
+
+test <- data.frame(gender = c('M' , 'F' , NA , 'M' , 'F'),
+                   score = c(10,15,5,20,NA))
+
+sum(test$score)
+
+is.na(test)
+
+
+#score 에 결측치 출력 
+test %>% filter(is.na(score))
+
+
+#score 에 결측치를 제외한 데이터 출력
+test_nona <- test %>% filter(!is.na(score))
+mean(test_nona$score)
+sum(test_nona$score)
+max(test_nona$score)
+min(test_nona$score)
+
+#test 데이터 프레임의 모든 na를 제거 하시오 
+#데이터 손실
+test_nona <- test %>% filter(!is.na(gender) & !is.na(score))
+test_nona
+
+#함수에서 결함치를 제외하고 계산 
+mean(test$score , na.rm = T)
+
+
+#결함치를 제외하고 계산 
+na.omit(test)
+
+#########################################
+
+##NA -> 58
+
+exam <- read_excel('exam.xlsx')
+
+exam[c(3,5,7), 3] = NA 
+
+
+exam$math <- ifelse(is.na(math)? math : 57 )
+
+
+for (k) in exam{
+  if exam[k , 3] == NA{
+     exam[k ,3] == 58
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

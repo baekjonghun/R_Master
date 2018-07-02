@@ -1,0 +1,101 @@
+,team,name,k,d,a,kda,help
+1,ROX,GorillA,0,3,1,0.3,0.5
+2,ROX,Pray,0,3,1,0.3,0.5
+3,ROX,kuro,0,3,0,0,0
+4,ROX,Peanut,1,4,1,0.5,1
+5,ROX,Smeb,1,4,1,0.5,1
+6,SSG,Wraith,1,0,6,8.4,0.41
+7,SSG,CoreJJ,3,0,7,12,0.59
+8,SSG,Crown,3,0,6,10.8,0.53
+9,SSG,Ambition,7,0,7,16.8,0.82
+10,SSG,CuVee,3,2,6,4.5,0.53
+11,SSG,Wraith,1,1,15,16,0.84
+12,SSG,CoreJJ,1,2,11,6,0.63
+13,SSG,Crown,5,1,7,12,0.63
+14,SSG,Ambition,8,3,6,4.7,0.74
+15,SSG,CuVee,4,4,10,3.5,0.74
+16,ROX,GorillA,0,5,8,1.6,0.73
+17,ROX,Pray,2,4,6,2,0.73
+18,ROX,kuro,6,2,2,4,0.73
+19,ROX,Peanut,1,3,5,2,0.55
+20,ROX,Smeb,2,6,4,1,0.55
+21,ROX,GorillA,0,1,9,9,0.41
+22,ROX,Pray,4,1,9,13,0.59
+23,ROX,kuro,9,1,10,19,0.86
+24,ROX,Peanut,4,0,12,19.2,0.73
+25,ROX,Smeb,5,2,8,6.5,0.59
+26,SSG,Wraith,1,2,4,2.5,1
+27,SSG,CoreJJ,1,4,3,1,0.8
+28,SSG,Crown,2,6,2,0.7,0.8
+29,SSG,Ambition,0,6,2,0.3,0.4
+30,SSG,CuVee,1,4,2,0.8,0.6
+31,kt,Hachani,0,1,8,8,0.8
+32,kt,Arrow,1,2,2,1.5,0.3
+33,kt,Fly,1,3,5,2,0.6
+34,kt,Score,3,5,4,1.4,0.7
+35,kt,ssumday,5,4,3,2,0.8
+36,Longzhu,Pure,0,1,11,11,0.73
+37,Longzhu,Fury,3,1,7,10,0.67
+38,Longzhu,CoCo,5,4,3,2,0.53
+39,Longzhu,Chaser,6,1,3,9,0.6
+40,Longzhu,Flame,1,3,9,3.3,0.67
+41,Longzhu,Zzus,0,3,0,0,0
+42,Longzhu,Cpt Jack,0,3,0,0,0
+43,Longzhu,Frozen,0,3,0,0,0
+44,Longzhu,Crash,0,2,0,0,0
+45,Longzhu,Flame,0,3,0,0,0
+46,kt,Hachani,1,0,11,14.4,0.86
+47,kt,Arrow,6,0,2,9.6,0.57
+48,kt,Fly,1,0,10,13.2,0.79
+49,kt,Score,5,0,8,15.6,0.93
+50,kt,ssumday,1,0,7,9.6,0.57
+51,Jin Air,Chei,0,2,9,4.5,0.53
+52,Jin Air,Pilot,3,0,5,9.6,0.47
+53,Jin Air,Kuzan,3,0,8,13.2,0.65
+54,Jin Air,Winged,3,1,8,11,0.65
+55,Jin Air,TrAce,8,0,7,18,0.88
+56,Kongdoo,Guger,0,3,2,0.7,0.67
+57,Kongdoo,Ssol,1,2,2,1.5,1
+58,Kongdoo,Edge,2,2,0,1,0.67
+59,Kongdoo,Crush,0,4,3,0.8,1
+60,Kongdoo,Hipo,0,6,1,0.2,0.33
+61,SKT T1,Wolf,1,1,12,13,0.59
+62,SKT T1,Bang,3,0,7,12,0.45
+63,SKT T1,Faker,11,0,8,22.8,0.86
+64,SKT T1,Blank,4,2,10,7,0.64
+65,SKT T1,Duke,3,2,9,6,0.55
+66,Afreeca,SnowFlower,1,3,2,1,0.6
+67,Afreeca,Sangyoon,1,4,1,0.5,0.4
+68,Afreeca,Mickey,1,4,2,0.8,0.6
+69,Afreeca,lira,1,5,2,0.6,0.6
+70,Afreeca,ikssu,1,6,2,0.5,0.6
+71,SKT T1,Wolf,0,3,5,1.7,0.71
+72,SKT T1,Bang,2,2,3,2.5,0.71
+73,SKT T1,Faker,1,3,3,1.3,0.57
+74,SKT T1,Blank,4,4,1,1.3,0.71
+75,SKT T1,Duke,0,4,2,0.5,0.29
+76,Afreeca,SnowFlower,0,2,10,5,0.63
+77,Afreeca,Sangyoon,3,1,6,9,0.56
+78,Afreeca,Mickey,6,1,5,11,0.69
+79,Afreeca,lira,5,2,9,7,0.88
+80,Afreeca,ikssu,2,1,5,7,0.44
+81,Kongdoo,Guger,0,4,2,0.5,1
+82,Kongdoo,Ssol,0,2,2,1,1
+83,Kongdoo,Edge,1,1,1,2,1
+84,Kongdoo,Crush,0,1,2,2,1
+85,Kongdoo,Hipo,1,4,1,0.5,1
+86,Jin Air,Chei,0,2,9,4.5,0.75
+87,Jin Air,Pilot,0,0,8,9.6,0.67
+88,Jin Air,Kuzan,4,0,8,14.4,1
+89,Jin Air,Winged,4,0,8,14.4,1
+90,Jin Air,TrAce,4,0,5,10.8,0.75
+91,Afreeca,SnowFlower,0,3,8,2.7,0.8
+92,Afreeca,Sangyoon,5,2,3,4,0.8
+93,Afreeca,Mickey,2,5,8,2,1
+94,Afreeca,lira,2,2,8,5,1
+95,Afreeca,ikssu,1,6,3,0.7,0.4
+96,SKT T1,Wolf,0,4,13,3.3,0.72
+97,SKT T1,Bang,1,2,11,6,0.67
+98,SKT T1,Faker,8,1,7,15,0.83
+99,SKT T1,Blank,2,2,11,6.5,0.72
+100,SKT T1,Duke,7,1,6,13,0.72

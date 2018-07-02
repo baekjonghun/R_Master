@@ -1,0 +1,34 @@
+#반별 수학점수의 평균을 구해보자.
+exam %>% 
+  group_by(class) %>% 
+  summarise(mean_math = mean(math))
+
+table(exam$english)
+
+exam %>% 
+  group_by(class) %>% 
+  summarise(eng_mean = mean(english) , eng_sd =  sd(english),
+            eng_max = max(english) , eng_min = min(english) , 
+            eng_n = n()) 
+
+
+
+re <- exam %>% 
+  group_by(class) %>% 
+  filter(science >= 50 & 90 >= science) %>% 
+  summarise(science_max = max(science))
+
+re <- re %>% arrange(desc(science_max))  
+
+re <- re[c(1:2)]
+
+head(re ,n = 2)
+
+
+table(exam$math)
+
+exam_math <- exam[c(1:5) ,c(1,3)]
+
+exam_math1 <- exam[c(1:5) ,c(1,3)]
+
+exam_eng <- exam[c(1:5)]

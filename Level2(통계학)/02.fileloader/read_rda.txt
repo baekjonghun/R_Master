@@ -1,0 +1,47 @@
+
+#rda 파일 r에서만 사용가능 합니다. 
+save(df_copy , file = 'new_df_copy.rda')
+
+rm(df_copy)
+
+load('new_df_copy.rda')
+
+write.table(df_copy , 'new_df_copy.txt'  ,sep = ',' ,quote = FALSE)
+
+
+#보통 데이터를 주고 받을때는 csv 를 사용한다. 
+
+
+#Quiz
+#df_copy 의 데이터를 저장합니다. : 확장자는 txt new_df_copy.txt
+#데이터 구분:
+
+setwd('E:\\workspace\\R\\project_RLevel1\\Level2\\file')
+
+list.files()
+
+t <- load('rda_df.rda')
+
+dir()
+
+test <- read_excel('quiz_excel.xlsx'  , sheet = 2 , col_names = F) 
+names(test) <- c('id' , 'math' , 'english')
+test
+
+summary(test$math)
+
+##파생변수 
+#Quiz : 수학과 영어 평균점수 추가 
+df <- data.frame(math =  c(50,40,20),eng = c(60,75,80))
+df$sum <- (df$math + df$eng)
+
+#Quiz : 변수 추가 - 변수명 :result   총점(sum)이 110이상이면 pass , 나머지는 fail
+
+result <- 
+
+
+  if (110 <= df$sum){
+    df$result <- 'pass'
+  }else{
+    df$result <- 'tail'
+  }

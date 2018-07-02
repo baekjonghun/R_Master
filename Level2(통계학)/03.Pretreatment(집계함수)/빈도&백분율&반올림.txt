@@ -1,0 +1,27 @@
+1. 빈도 구하기
+
+
+table(exam$english)
+
+~~~group by
+summary(  n()  ) 
+
+
+
+2. 백분율 구하기
+
+# prop.table(table(데이터명$변수명))*100
+
+prop.table(table(abc$교육수준))*100
+
+
+
+
+
+3.# 반올림하기
+
+# round(숫자, digits=1) 
+
+round(prop.table(table(abc$교육수))*100, digits=1)
+
+=>digits=1 이란 소수점 첫째자리를 의미

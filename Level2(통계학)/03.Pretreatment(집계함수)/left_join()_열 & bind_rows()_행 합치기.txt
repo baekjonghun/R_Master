@@ -1,0 +1,7 @@
+
+#id를 기준으로 Joing 합니다.
+exam_join <- left_join(exam_math , exam_eng , by = 'id')
+
+#컬럼명을 기준으로 위에서 아래로 Join 
+exam_row <- bind_rows(exam_math , exam_math1)
+

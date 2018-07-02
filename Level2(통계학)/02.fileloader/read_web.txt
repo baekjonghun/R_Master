@@ -1,0 +1,10 @@
+
+
+
+#À¥
+url <- 'http://archive.ics.uci.edu/m1/machine-learning-databases/car/car.data'
+
+
+urldata <- read.csv(url)
+
+
